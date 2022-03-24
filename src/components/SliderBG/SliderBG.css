@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.slide-btn {
+    padding: 12px 45px;
+    border: none;
+    background-color: #E7272D;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    transition: all 0.5s;
+    margin-bottom: 10px;
+
+}
+
+.slide-btn:hover {
+    background-color: #F9DB06;
+    color: black;
+}
