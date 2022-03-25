@@ -6,14 +6,14 @@ const Header = () => {
     return (
         <div>
            <nav className='nav-content'>
-           <Navbar bg="warning" expand="lg">
+           <Navbar className='navbar-container' expand="lg">
             <Container >
                 <Navbar.Brand href="#" className='fs-5'><span className='title'>Burger Restaurant</span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                 <Nav
                     className="me-auto my-2 my-lg-0"
-                    style={{ maxHeight: '100px' }}
+                    style={{ maxHeight: '100px', }}
                     navbarScroll
                      >
                     <Nav.Link href="#action1" className='fs-6'>Home</Nav.Link>
@@ -29,14 +29,14 @@ const Header = () => {
                    Contact
                     </Nav.Link>
                 </Nav>
-                <Form className="d-flex">
+                <Form className="d-flex search-box">
                     <FormControl
                     type="search"
                     placeholder="Enter the name of your Food"
-                    className="me-2"
+                    className="me-2 text-red"
                     aria-label="Search"
                     />
-                    <button className='btn-outline-danger bg-warning px-4' variant="outline-success">Search</button>
+                    <button className='btn-outline-danger navbar-btn px-4' variant="outline-success">Search</button>
                 </Form>
                 </Navbar.Collapse>
             </Container>

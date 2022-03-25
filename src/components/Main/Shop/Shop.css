@@ -4,3 +4,42 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
 }
+
+.product-title span {
+    color: #E7272D;
+}
+
+.search-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.search-title span {
+    color: #E7272D;
+}
+
+.search-btn {
+    border: 2px solid #E7272D;
+    background-color: white;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: #E7272D;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.search-btn:hover {
+    background-color: #E7272D;
+    color: white;
+}
+
+.search {
+    border: 2px solid #F9DB06;
+}

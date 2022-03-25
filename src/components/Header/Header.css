@@ -2,6 +2,7 @@
 
 .title {
     font-family: 'Poppins', sans-serif;
+    color: #E7272D;
 }
 
 .nav-content {
@@ -9,4 +10,16 @@
     z-index: 10;
     position: sticky;
     top: 0;
+}
+
+.navbar-container {
+    background-color: #F9DB06;
+}
+
+.navbar-btn {
+    background-color: #F9DB06;
+}
+
+.search-box {
+    background-color: #F9DB06;
 }

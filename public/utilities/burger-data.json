@@ -1,34 +1,34 @@
 [
     {
-        "title":"Elk Burger",
-        "price":60,
+        "strMeal":"Elk Burger",
+        "idMeal":60,
         "id":1,
         "ratting":4,
         "description":"Shortened in length, the term Burger is used to describe a popular sandwich made from ground meats that are formed into a patty, cooked, and placed between two halves of a bun. ",
-        "pic":"https://img.freepik.com/free-photo/front-view-tasty-meat-burger-with-cheese-salad-dark-background_140725-89597.jpg?size=626&ext=jpg&uid=R48110847&ga=GA1.2.130129022.1637698838"
+        "strMealThumb":"https://img.freepik.com/free-photo/front-view-tasty-meat-burger-with-cheese-salad-dark-background_140725-89597.jpg?size=626&ext=jpg&uid=R48110847&ga=GA1.2.130129022.1637698838"
     },
     {
-        "title":"Salmon Sandwich",
+        "strMeal":"Salmon Sandwich",
         "price":80,
         "id":2,
         "ratting":5,
         "description":"Shortened in length, the term Burger is used to describe a popular sandwich made from ground meats that are formed into a patty, cooked, and placed between two halves of a bun. ",
-        "pic":"https://img.freepik.com/free-photo/side-view-double-cheeseburger-with-grilled-beef-patties-cheese-lettuce-leaf-burger-buns_141793-4883.jpg?size=626&ext=jpg&uid=R48110847&ga=GA1.1.130129022.1637698838"
+        "strMealThumb":"https://img.freepik.com/free-photo/side-view-double-cheeseburger-with-grilled-beef-patties-cheese-lettuce-leaf-burger-buns_141793-4883.jpg?size=626&ext=jpg&uid=R48110847&ga=GA1.1.130129022.1637698838"
     },
     {
-        "title":"Butter Burger",
-        "price":90,
+        "strMeal":"Butter Burger",
+        "idMeal":90,
         "id":3,
         "ratting":4,
         "description":"Shortened in length, the term Burger is used to describe a popular sandwich made from ground meats that are formed into a patty, cooked, and placed between two halves of a bun. ",
-        "pic":"https://img.freepik.com/free-photo/front-view-yummy-french-fries-with-cheeseburgers-dark-background-snack-dish-fast-food-sandwich-toast-burgers-dinner_140725-158682.jpg?size=626&ext=jpg&uid=R48110847&ga=GA1.2.130129022.1637698838"
+        "strMealThumb":"https://img.freepik.com/free-photo/front-view-yummy-french-fries-with-cheeseburgers-dark-background-snack-dish-fast-food-sandwich-toast-burgers-dinner_140725-158682.jpg?size=626&ext=jpg&uid=R48110847&ga=GA1.2.130129022.1637698838"
     },
     {
-        "title":"Bison Burger",
-        "price":50,
+        "strMeal":"Bison Burger",
+        "idMeal":50,
         "id":4,
         "ratting":5,
         "description":"Shortened in length, the term Burger is used to describe a popular sandwich made from ground meats that are formed into a patty, cooked, and placed between two halves of a bun. ",
-        "pic":"https://img.freepik.com/free-photo/sandwich-hamburger-with-juicy-burgers-tomato-red-cabbage_2829-4119.jpg?size=626&ext=jpg&uid=R48110847&ga=GA1.2.130129022.1637698838"
+        "strMealThumb":"https://img.freepik.com/free-photo/sandwich-hamburger-with-juicy-burgers-tomato-red-cabbage_2829-4119.jpg?size=626&ext=jpg&uid=R48110847&ga=GA1.2.130129022.1637698838"
     }
 ]
