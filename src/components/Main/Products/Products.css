@@ -4,7 +4,6 @@
 .product {
     text-align: center;
     box-shadow: 0 4px 21px -12px rgb(0, 0, 0, 0.79);
-    min-height: 370px;
 
 }
 
@@ -42,7 +41,12 @@
 .product button:hover {
     background-color: #E7272D;
     border: 2px solid #E7272D;
-    padding: 15px 45px;
-    border: none;
+
     color: white;
+}
+
+.start {
+    color: #F9DB06;
+    margin: 0;
+    padding-bottom: 10px;
 }

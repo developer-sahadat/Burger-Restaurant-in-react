@@ -9,7 +9,7 @@
     },
     {
         "strMeal":"Salmon Sandwich",
-        "price":80,
+        "idMeal":80,
         "id":2,
         "ratting":5,
         "description":"Shortened in length, the term Burger is used to describe a popular sandwich made from ground meats that are formed into a patty, cooked, and placed between two halves of a bun. ",
