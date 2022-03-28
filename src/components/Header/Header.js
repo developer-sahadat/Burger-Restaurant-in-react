@@ -25,7 +25,7 @@ const Header = () => {
                     Best Sell Product
                     </NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="#" className='fs-6'>
+                    <Nav.Link href="../Contact/Contact.js" className='fs-6'>
                    Contact
                     </Nav.Link>
                 </Nav>

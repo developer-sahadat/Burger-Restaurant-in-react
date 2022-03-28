@@ -1,4 +1,5 @@
 
+import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { FormControl, InputGroup } from 'react-bootstrap';
 import Products from '../Products/Products';
@@ -10,6 +11,7 @@ const Shop = () => {
         fetch('utilities/burger-data.json')
         .then(res=>res.json())
         .then(data=>setProducts(data))
+
     }, [])
 
     const [searchValue, setSearch]=useState([])
@@ -24,7 +26,6 @@ const Shop = () => {
             fetch(url)
             .then(res=>res.json())
             .then(data=>data.meals?setProducts(data.meals.slice(0, 4)):alert('Sorry, no product with this name was found'))
-            
         }
       
     };

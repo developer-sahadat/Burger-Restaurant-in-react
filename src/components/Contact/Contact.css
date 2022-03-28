@@ -11,8 +11,24 @@
 }
 
 .contact-from button {
-    padding: 10px 45px;
-    margin-top: 15px;
+    border: 2px solid rgba(216, 216, 216, 0.79);
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: white;
+    transition: all 0.2s;
+    font-size: 18px;
+    color: #E7272D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    margin-top: 20px;
+}
+
+.contact-from button:hover {
+    background-color: #E7272D;
+    border: 2px solid #E7272D;
+
+    color: white;
 }
 
 h2 {
