@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Form, FormControl, Nav, NavDropdown,  } from 'react-bootstrap';
+import { Container, Form, FormControl, Nav} from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar'
 import { NavLink } from 'react-router-dom';
 import './Header.css'
@@ -9,18 +9,14 @@ const Header = () => {
            <nav className='nav-content'>
            <Navbar className='navbar-container' expand="lg">
             <Container >
-                <Navbar.Brand href="#" className='fs-5'><span className='title'><NavLink to='/' style={{color:'black', textDecoration:'none'}}>Burger Restaurant</NavLink></span></Navbar.Brand>
+            <NavLink to='/' className='fs-5' style={{color:'black', textDecoration:'none'}}>Burger Restaurant</NavLink>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
-                <Nav
-                    className="me-auto my-2 my-lg-0"
-                    style={{ maxHeight: '100px', }}
-                    navbarScroll
-                     >
+                <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px', }} navbarScroll>
                    <NavLink to='/' className='navItems'>Home</NavLink> 
-                        <NavLink className='navItems' to='/shop'>Shop</NavLink>
-                        <NavLink className='navItems' to='/contact'>Contact Us</NavLink>
-                        <NavLink className='navItems' to='/about'> About</NavLink>
+                    <NavLink className='navItems' to='/shop'>Shop</NavLink>
+                    <NavLink className='navItems' to='/contact'>Contact Us</NavLink>
+                    <NavLink className='navItems' to='/about'> About</NavLink>
                 </Nav>
                 <Form className="d-flex search-box">
                     <FormControl

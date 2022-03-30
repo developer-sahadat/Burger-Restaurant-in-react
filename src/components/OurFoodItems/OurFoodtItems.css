@@ -1,0 +1,17 @@
+.items {
+    margin-bottom: 50px;
+}
+
+.items-title span {
+    color: #E7272D;
+}
+
+.itemsLinks {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: #E7272D;
+    font-weight: 600;
+    border: 2px solid rgba(216, 216, 216, 0.79);
+    padding: 15px 45px;
+}
