@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import'./order.css'
 import { useParams } from 'react-router-dom';
-import OrderDetails from '../OrderDetails/OrderDetails';
+
 
 const OrderPage = () => {
 
@@ -26,7 +27,23 @@ const OrderPage = () => {
 
 
     return (
-        <div>
+        <div className='m-5'>
+            <div className="container order-page row row-cols-lg-2 mx-auto justify-content-center align-items-center p-5">
+              <div>
+                  <div>
+                    <img src={orderProduct?.strMealThumb} className='img-fluid rounded' alt="" />
+                  </div>
+              </div>
+              <div>
+                  <div>
+                    <h2 className='m-0 pt-3'>{orderProduct?.strMeal}</h2>
+                     <h6 className='fw-bold'>Price: {orderProduct?.idMeal}</h6> 
+                    <h6 className='fw-bold'>Ratting: {orderProduct?.ratting ? orderProduct.ratting: 4}</h6>
+                    <p className='fs-6'>{orderProduct?.strInstructions}</p>
+                    <button>Add To cart</button>
+                  </div>
+              </div>
+            </div> 
         </div>
     );
 };
