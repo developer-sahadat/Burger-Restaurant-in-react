@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Form, FormControl, Nav, NavDropdown,  } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar'
+import { NavLink } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
     return (
@@ -8,7 +9,7 @@ const Header = () => {
            <nav className='nav-content'>
            <Navbar className='navbar-container' expand="lg">
             <Container >
-                <Navbar.Brand href="#" className='fs-5'><span className='title'>Burger Restaurant</span></Navbar.Brand>
+                <Navbar.Brand href="#" className='fs-5'><span className='title'><NavLink to='/' style={{color:'black', textDecoration:'none'}}>Burger Restaurant</NavLink></span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                 <Nav
@@ -16,18 +17,10 @@ const Header = () => {
                     style={{ maxHeight: '100px', }}
                     navbarScroll
                      >
-                    <Nav.Link href="#action1" className='fs-6'>Home</Nav.Link>
-                    <NavDropdown className='fs-6' title="Shop" id="navbarScrollingDropdown">
-                    <NavDropdown.Item href="#action3">FAQ</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">Food items</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
-                    Best Sell Product
-                    </NavDropdown.Item>
-                    </NavDropdown>
-                    <Nav.Link href="../Contact/Contact.js" className='fs-6'>
-                   Contact
-                    </Nav.Link>
+                   <NavLink to='/' className='navItems'>Home</NavLink> 
+                        <NavLink className='navItems' to='/shop'>Shop</NavLink>
+                        <NavLink className='navItems' to='/contact'>Contact Us</NavLink>
+                        <NavLink className='navItems' to='/about'> About</NavLink>
                 </Nav>
                 <Form className="d-flex search-box">
                     <FormControl

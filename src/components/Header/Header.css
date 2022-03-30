@@ -23,3 +23,14 @@
 .search-box {
     background-color: #F9DB06;
 }
+
+.navItems {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.navItems.active {
+    color: #E7272D;
+}

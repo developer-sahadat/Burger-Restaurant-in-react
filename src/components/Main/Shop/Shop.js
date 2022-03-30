@@ -1,5 +1,5 @@
 
-import axios from 'axios';
+
 import React, { useEffect, useState } from 'react';
 import { FormControl, InputGroup } from 'react-bootstrap';
 import Products from '../Products/Products';
@@ -58,7 +58,7 @@ const Shop = () => {
                       {
                         products.map(product=> 
                         <Products product={product}
-                        key={product.id}
+                        key={product.idMeal}
                         
                         >
 

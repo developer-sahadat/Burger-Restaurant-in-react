@@ -1,20 +1,25 @@
 import './App.css';
 import Header from './components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SliderBG from './components/SliderBG/SliderBG';
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './components/HomePage/HomePage';
 import Shop from './components/Main/Shop/Shop';
-import OurSpecialRecipe from './components/OurSpecialRecipe/OurSpecialRecipe';
 import Contact from './components/Contact/Contact';
+import About from './components/About/About';
+import OrderPage from './components/OrderPage/OrderPage';
 
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <SliderBG></SliderBG>
-      <Shop></Shop>
-      <OurSpecialRecipe></OurSpecialRecipe>
-      <Contact></Contact>
+      <Routes>
+        <Route path='/' element={<HomePage/>}></Route>
+        <Route path='/shop' element={<Shop/>}></Route>
+        <Route path='/contact' element={<Contact/>}></Route>
+        <Route path='/about' element={<About/>}></Route>
+        <Route path='/productItems/:id' element={<OrderPage/>}></Route>
+      </Routes>
     </div>
   );
 }
