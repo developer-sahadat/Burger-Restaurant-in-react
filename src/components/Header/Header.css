@@ -1,36 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .title {
-    font-family: 'Poppins', sans-serif;
-    color: #E7272D;
+  font-family: "Poppins", sans-serif;
+  color: #e7272d;
 }
 
 .nav-content {
-    box-shadow: 1px 2px 5px rgb(184, 184, 184);
-    z-index: 10;
-    position: sticky;
-    top: 0;
+  box-shadow: 1px 2px 5px rgb(184, 184, 184);
+  z-index: 10;
+  position: sticky;
+  top: 0;
 }
 
 .navbar-container {
-    background-color: #F9DB06;
+  background-color: #f9db06;
 }
 
 .navbar-btn {
-    background-color: #F9DB06;
+  background-color: #f9db06;
 }
 
 .search-box {
-    background-color: #F9DB06;
+  background-color: #f9db06;
 }
 
 .navItems {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    padding-left: 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding-left: 15px;
 }
 
 .navItems.active {
-    color: #E7272D;
+  color: #e7272d;
+}
+.Login {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+  border: 2px solid #feecec;
+  padding: 1px 5px;
+  color: #ffffff;
+  font-weight: 600;
 }

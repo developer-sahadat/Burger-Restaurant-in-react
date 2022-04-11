@@ -1,0 +1,38 @@
+.googleLoginBtn {
+  background-color: white;
+  width: 50%;
+  padding: 5px 0;
+  margin: 10px 0;
+  border: 2px solid rgb(208, 207, 207);
+  border-radius: 50px;
+}
+.googleLoginBtn:hover {
+  border: 2px solid rgb(208, 207, 207, 0.5);
+}
+
+.googleLoginBtn span {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(46, 46, 46, 0.7);
+}
+.googleLoginBtn img {
+  width: 25px;
+}
+.orLoginOption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.orLoginOption h4 {
+  margin: 0px 20px;
+  color: black;
+}
+
+.orLoginOption div {
+  width: 80%;
+  height: 1px;
+  background: #000;
+  margin-top: 50px;
+}
